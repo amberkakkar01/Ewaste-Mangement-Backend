@@ -25,6 +25,7 @@ For building and running the application you need:
 - [Maven 3](https://maven.apache.org)
 - [Any IDE](https://www.jetbrains.com/idea/)
 - [My-Sql](https://www.mysql.com/)
+- [GIT](https://git-scm.com/)
 
 ## Running the application locally
 
