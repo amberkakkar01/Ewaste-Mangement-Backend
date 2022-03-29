@@ -109,4 +109,6 @@ For more information about Spring Boot and Starters try below resources:
 
 ## Code of Conduct
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+
+
 Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
