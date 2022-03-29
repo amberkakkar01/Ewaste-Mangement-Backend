@@ -1,9 +1,10 @@
 # Ewaste-Mangement-Backend
 
  Ewaste Management Portal is an web based application that will help the us to recycle ewaste. It has three interfaces -
- -Customer/User
- -Collector
- -Vendor
+ 
+  -Customer/User
+  -Collector
+  -Vendor
 
 
 
