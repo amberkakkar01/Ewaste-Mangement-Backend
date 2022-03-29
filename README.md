@@ -47,7 +47,7 @@ project
 └───src
 │   └───main
 │   │   └───java
-│   │   │     └───com.nineleaps.timesheet
+│   │   │     └───com.groupfive.EwasteManagement
 │   │   │         └───config
 │   │   │         └───controller
 │   │   │         └───dto
