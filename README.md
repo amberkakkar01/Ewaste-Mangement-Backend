@@ -40,7 +40,7 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 ```
 
 
-##### Folder Structure
+#### Folder Structure
 
 ```
 project
@@ -67,7 +67,7 @@ project
 └───...
 ```
 
-##### Configuring the backend
+#### Configuring the backend
 
  The Directory `backend/src/main/resources/` contains the `appication.properties` config file for the backend.
  This includes the following configurations
