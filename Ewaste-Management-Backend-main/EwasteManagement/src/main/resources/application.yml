@@ -1,0 +1,37 @@
+spring:
+  main:
+    allow-circular-references: true
+
+
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/springSecurity?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+#    username: root
+#    password: nineleaps
+#
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 261695239236-209k4qmqr5tb4idn5hn4m6dhtk5k7i1m.apps.googleusercontent.com
+            clientSecret: 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
+            redirectUri: "{baseUrl}/oauth2/callback/{registrationId}"
+            scope:
+              - email
+              - profile
+
+cors:
+  allowedOrigins: http://localhost:3000,http://localhost:8083
+
+  oauth2:
+    authorizedRedirectUris:
+      - http://localhost:3000/oauth2/redirect
